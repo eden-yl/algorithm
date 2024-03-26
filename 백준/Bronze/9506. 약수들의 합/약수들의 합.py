@@ -5,8 +5,8 @@ def getDivisorList(n):
             li.append(i)
             if i**2 != n:
                 li.append(n//i)
-    li.sort()
     li.remove(n)
+    li.sort()
     return li
 
 while True:
