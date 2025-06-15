@@ -17,6 +17,5 @@ for i in range(M, N+1):
 if len(li)==0:
     print(-1)
 else:
-    li.sort()
     print(sum(li))
     print(min(li))
